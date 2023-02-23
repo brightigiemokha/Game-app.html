@@ -34,10 +34,17 @@ button{
     font-size: 20px;
     font-weight: bolder;
     display: flex;
+    justify-content: center;
     align-items: center;
 
 
 }
 .container:hover {
     border-color: rgb(13, 14, 13);
+}
+body.correct {
+    --hue: var(--hue-correct);
+}
+body.wrong {
+    --hue: var(--hue-wrong);
 }
