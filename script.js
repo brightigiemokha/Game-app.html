@@ -1,4 +1,14 @@
-const correct1 = document.querySelector('correct1');
+// changing background if correct option picked
+const correct1 = document.getElementById('correct1');
+
+correct1.addEventListener('click', function onClick(event) {
+  document.body.style.backgroundColor = 'green';
+});
+const wrong = document.getElementById('wrong');
+
+wrong.addEventListener('click', function onClick(event) {
+  document.body.style.backgroundColor = 'red';
+});
 // displaying the first block of question
 document.getElementsByClassName('container')[0].style.display = 'block';
 
@@ -31,7 +41,9 @@ function result() {
 
 function myFunction() {
     var element = document.getElementById("correct1");
-    element.classList.toggle("correct1");
-  }
-
-var element = document.getElementById("correct1");
+    element.classList.toggle("body.correct");
+  };
+function myFunction() {
+    var element = document.getElementById("wrong");
+    element.classList.toggle("body.wrong");
+  };
