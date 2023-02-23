@@ -1,6 +1,7 @@
-
+const correct1 = document.querySelector('correct1');
 // displaying the first block of question
 document.getElementsByClassName('container')[0].style.display = 'block';
+
 
 //DEFINING THE NEXT FUNCTION
 function next(id) {
@@ -35,12 +36,15 @@ function result() {
         correct;
     }
     alert('YOU SCORED:'+ score);
-    checked.addEventListener('checked', corrects)
+    if (answer.correct) {
+        radio.dataset.correct = answer.correct
+    }
+    radio.addEventListener("click", correct1)
 }
 
 function myFunction() {
     var element = document.getElementById("correct1");
-    element.classList.toggle("correct");
+    element.classList.toggle("correct1");
   }
 
 var element = document.getElementById("correct1");
