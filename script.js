@@ -35,19 +35,12 @@ function result() {
         correct;
     }
     alert('YOU SCORED:'+ score);
-    checked.addEventListener('checked', selectAnswer)
+    checked.addEventListener('checked', corrects)
 }
 
-function setStatusClass(element, correct) {
-    if (correct) {
-        element.classList.add('correct')
-    } else {
-        element.classList.add('Wrong')
-    }
-}
-function selectAnswer(e) {
-    const checked = e.target;
-    const correct = cheched.dataset.correct;
-    setStatusClass(document.body, correct)
-}
+function myFunction() {
+    var element = document.getElementById("correct1");
+    element.classList.toggle("correct");
+  }
+
 var element = document.getElementById("correct1");
