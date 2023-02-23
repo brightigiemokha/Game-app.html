@@ -14,32 +14,19 @@ function result() {
     if (document.getElementById('correct1').checked) {
         score++;
     }
-    if (document.getElementById('correct1').checked) {
-        correct;
-    }
+
     if (document.getElementById('correct2').checked) {
         score++;
     }
-    if (document.getElementById('correct2').checked) {
-        correct;
-    }
+
     if (document.getElementById('correct3').checked) {
         score++;
     }
-    if (document.getElementById('correct3').clicked) {
-        correct;
-    }
+
     if (document.getElementById('correct4').checked) {
         score++;
     }
-    if (document.getElementById('correct4').checked) {
-        correct;
-    }
-    alert('YOU SCORED:'+ score);
-    if (answer.correct) {
-        radio.dataset.correct = answer.correct
-    }
-    radio.addEventListener("click", correct1)
+    alert('YOU SCORED: '+ score);
 }
 
 function myFunction() {
