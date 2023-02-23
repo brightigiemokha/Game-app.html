@@ -26,18 +26,16 @@ body {
     border: 6px solid white;
     border-radius: 10px;
     width: 60%;
-    padding: 20px 20px;
+    padding: 10px 20px;
     display: none;
 }
 button{
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 20px;
     font-weight: bolder;
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 .container:hover {
     border-color: rgb(13, 14, 13);
