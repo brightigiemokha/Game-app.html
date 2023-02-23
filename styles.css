@@ -1,6 +1,5 @@
 * {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 :root {
     --hue-neutral: 200;
@@ -10,19 +9,18 @@
 body {
     --hue:var(--hue-neutral);
     padding-top: 30%;
-    padding-left: 10%;
+    padding-left: 20%;
     margin: 0;
     width: 100vw;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: hsl(var(--hue), 100%, 20%);
+    background-color: #2e4376;
     font-weight: bolder;
     color: aliceblue;
     font-size: 25px;
 }
 .container{
-
     border: 6px solid white;
     border-radius: 10px;
     width: 60%;

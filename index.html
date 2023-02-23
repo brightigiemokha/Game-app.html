@@ -1,100 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <title>Quiz app</title>
+</head>
 <body>
     <div class="container">
-    <p>Q1 What was the most popular girls name in the UK in 2021?</p>
-    <input type="radio" name="question1" id="correct1">Olivia<br>
-    <input type="radio" name="question1" class="wrong">Brany<br>
-    <input type="radio" name="question1" class="wrong">Paul<br>
-    <input type="radio" name="question1" class="wrong">James<br>
-    <button class="next" onclick="next(1)">NEXT</button>
-    <button onclick="result(this)">SUBMIT</button>
-    
+        <p>Q1 What was the most popular girls name in the UK in 2021?</p>
+        <input type="radio" name="question1" id="correct">Olivia<br>
+        <input type="radio" name="question1" class="wrong">Brany<br>
+        <input type="radio" name="question1" class="wrong">Paul<br>
+        <input type="radio" name="question1" class="wrong">James<br>
+        <button class="next" onclick="next(1)">NEXT</button>
+        <button onclick="result(this)">SUBMIT</button>
+
     </div>
     <div class="container">
-    <p>Q2 In what US State is the city Nashville?</p>
-    <input type="radio" name="question2" class="wrong">Ohia<br>
-    <input type="radio" name="question2" class="wrong">New York<br>
-    <input type="radio" name="question2" id="correct2">Tennessee<br>
-    <input type="radio" name="question2" class="wrong">Georgia<br>
-    <button class="next" onclick="next(2)">NEXT</button>
-    <button onclick="result(this)">SUBMIT</button>
-    
+        <p>Q2 In what US State is the city Nashville?</p>
+        <input type="radio" name="question2" class="wrong">Ohia<br>
+        <input type="radio" name="question2" class="wrong">New York<br>
+        <input type="radio" name="question2" id="correct">Tennessee<br>
+        <input type="radio" name="question2" class="wrong">Georgia<br>
+        <button class="next" onclick="next(2)">NEXT</button>
+        <button onclick="result(this)">SUBMIT</button>
+
     </div>
     <div class="container">
-    <p>Q3 What was the Turkish city of Istanbul called before 1930?</p>
-    <input type="radio" name="question3" class="wrong">Bursa<br>
-    <input type="radio" name="question3" class="wrong">Konya<br>
-    <input type="radio" name="question3" id="correct3">Constantinople<br>
-    <input type="radio" name="question3" class="wrong">Ankara<br>
-    <button class="next" onclick="next(3)">NEXT</button>
-    <button onclick="result(this)">SUBMIT</button>
-    
+        <p>Q3 What was the Turkish city of Istanbul called before 1930?</p>
+        <input type="radio" name="question3" class="wrong">Bursa<br>
+        <input type="radio" name="question3" class="wrong">Konya<br>
+        <input type="radio" name="question3" id="correct">Constantinople<br>
+        <input type="radio" name="question3" class="wrong">Ankara<br>
+        <button class="next" onclick="next(3)">NEXT</button> 
+        <button onclick="result(this)">SUBMIT</button>
+
     </div>
     <div class="container">
-    <p>Q4 Who wrote the novels Gone Girl and Sharp Objects?</p>
-    <input type="radio" name="question4" id="correct4">Gillian Flynn<br>
-    <input type="radio" name="question4" class="wrong">Emily Dickinson<br>
-    <input type="radio" name="question4" class="wrong">Robert Frost<br>
-    <input type="radio" name="question4" class="wrong">Walt Whitman<br>
-    <button class="next" onclick="next(4)">NEXT</button>
-    <button onclick="result(this)">SUBMIT</button>
+        <p>Q4 Who wrote the novels Gone Girl and Sharp Objects?</p>
+        <input type="radio" name="question4" id="correct">Gillian Flynn<br>
+        <input type="radio" name="question4" class="wrong">Emily Dickinson<br>
+        <input type="radio" name="question4" class="wrong">Robert Frost<br>
+        <input type="radio" name="question4" class="wrong">Walt Whitman<br>
+        <button class="next" onclick="next(4)">NEXT</button> 
+        <button onclick="result(this)">SUBMIT</button>
     </div>
     
     <div class="container">
-    <p>Q5 In which part of your body would you find the cruciate ligament?</p>
-    <input type="radio" name="question5" id="correct5">Knee<br>
-    <input type="radio" name="question5" class="wrong">Brain<br>
-    <input type="radio" name="question5" class="wrong">Hand<br>
-    <input type="radio" name="question5" class="wrong">Foot<br>
-    <button class="next" onclick="next(5)">NEXT</button>
-    <button onclick="result(this)">SUBMIT</button>
-    
+        <p>Q5 In which part of your body would you find the cruciate ligament?</p>
+        <input type="radio" name="question5" id="correct">Knee<br>
+        <input type="radio" name="question5" class="wrong">Brain<br>
+        <input type="radio" name="question5" class="wrong">Hand<br>
+        <input type="radio" name="question5" class="wrong">Foot<br>
+        <button class="next" onclick="next(5)">NEXT</button>
+        <button onclick="result(this)">SUBMIT</button>
+
     </div>
     <div class="container">
-    <p>Q6 What is the name of the main antagonist in the Shakespeare play Othello?</p>
-    <input type="radio" name="question6" class="wrong">Olivia<br>
-    <input type="radio" name="question6" class="wrong">Call of Duty<br>
-    <input type="radio" name="question6" id="correct6">Iago<br>
-    <input type="radio" name="question6" class="wrong">Tennessee<br>
-    <button class="next" onclick="next(6)">NEXT</button>
-    <button onclick="result(this)">SUBMIT</button>
-    
+        <p>Q6 What is the name of the main antagonist in the Shakespeare play Othello?</p>
+        <input type="radio" name="question6" class="wrong">Olivia<br>
+        <input type="radio" name="question6" class="wrong">Call of Duty<br>
+        <input type="radio" name="question6" id="correct">Iago<br>
+        <input type="radio" name="question6" class="wrong">Tennessee<br>
+        <button class="next" onclick="next(6)">NEXT</button>
+        <button onclick="result(this)">SUBMIT</button>
+
     </div>
     <div class="container">
-    <p>Q7 What element is denoted by the chemical symbol Sn in the periodic table?</p>
-    <input type="radio" name="question7" class="wrong">Krone<br>
-    <input type="radio" name="question7" class="wrong">Netherlands<br>
-    <input type="radio" name="question7" class="wrong">Marathon<br>
-    <input type="radio" name="question7" id="correct7">Tin<br>
-    <button class="next" onclick="next(7)">NEXT</button>
-    <button onclick="result(this)">SUBMIT</button>
-    
+        <p>Q7 What element is denoted by the chemical symbol Sn in the periodic table?</p>
+        <input type="radio" name="question7" class="wrong">Krone<br>
+        <input type="radio" name="question7" class="wrong">Netherlands<br>
+        <input type="radio" name="question7" class="wrong">Marathon<br>
+        <input type="radio" name="question7" id="correct">Tin<br>
+        <button class="next" onclick="next(7)">NEXT</button> 
+        <button onclick="result(this)">SUBMIT</button>
+
     </div>
     <div class="container">
-    <p>Q8 How many of Henry VIII's wives were called Catherine?</p>
-    <input type="radio" name="question8" id="correct8">6<br>
-    <input type="radio" name="question8" class="wrong">3<br>
-    <input type="radio" name="question8" class="wrong">2<br>
-    <input type="radio" name="question8" class="wrong">0<br>
-    <button class="next" onclick="next(8)">NEXT</button>
-    <button onclick="result(this)">SUBMIT</button>
+        <p>Q8 How many of Henry VIII's wives were called Catherine?</p>
+        <input type="radio" name="question8" id="correct">6<br>
+        <input type="radio" name="question8" class="wrong">3<br>
+        <input type="radio" name="question8" class="wrong">2<br>
+        <input type="radio" name="question8" class="wrong">0<br>
+        <button class="next" onclick="next(8)">NEXT</button>
+        <button onclick="result(this)">SUBMIT</button>
     </div>
     <div class="container">
     <p>Q9 What is the smallest planet in our solar system?</p>
-    <input type="radio" name="question9" id="correct9">Mercury<br>
-    <input type="radio" name="question9" class="wrong">Mars<br>
-    <input type="radio" name="question9" class="wrong">Earth<br>
-    <input type="radio" name="question9" class="wrong">Jupital<br>
-    <button class="next" onclick="next(9)">NEXT</button>
-    <button onclick="result(this)">SUBMIT</button>
+        <input type="radio" name="question9" id="correct">Mercury<br>
+        <input type="radio" name="question9" class="wrong">Mars<br>
+        <input type="radio" name="question9" class="wrong">Earth<br>
+        <input type="radio" name="question9" class="wrong">Jupital<br>
+        <button class="next" onclick="next(9)">NEXT</button> 
+        <button onclick="result(this)">SUBMIT</button>
     </div>
     
     <div class="container">
-    Q10 From what grain is the Japanese spirit Sake made?<hr>
-    <input type="radio" name="question10" class="wrong">Bread<br>
-    <input type="radio" name="question10" id="correct10">Rice<br>
-    <input type="radio" name="question10" class="wrong">Chips<br>
-    <input type="radio" name="question10" class="wrong">Potato<br>
-    <button onclick="result(this)">SUBMIT</button>
-    
+        Q10 From what grain is the Japanese spirit Sake made?<hr>
+        <input type="radio" name="question10" class="wrong">Bread<br>
+        <input type="radio" name="question10" id="correct">Rice<br>
+        <input type="radio" name="question10" class="wrong">Chips<br>
+        <input type="radio" name="question10" class="wrong">Potato<br>
+        <button onclick="result(this)">SUBMIT</button>
+
     </div>
-    </body>
+</body>
+</html>
