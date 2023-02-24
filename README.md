@@ -1,7 +1,7 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 <h1>QUIZ APP</h1>
-<img src="image/responsive.jpeg">
+<img src="image/responsive.png">
 <p> this a quiz game with perfect background colour and completely responsive. there are 4 options to choose from and to make the game easier to answer a background color of red was set gto help user understand when they are making wrong choice and green background is shown when the right answer is picked. this is displaced below</p>
 <img src="image/wrong.png"> <img src="image/right.png"> 
 
