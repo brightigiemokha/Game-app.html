@@ -25,5 +25,5 @@ function result(e) {
             return true;
         }
     })
-    alert('YOU SCORED: '+ score);
+    alert('YOUR SCORE: '+ score);
 }
