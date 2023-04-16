@@ -9,6 +9,7 @@ document.getElementsByClassName('container')[0].style.display = 'block';
 function next(id) {
     document.getElementsByClassName('container')[id-1].style.display = "none"; //make them appear one after another.
     document.getElementsByClassName('container')[id].style.display = "block"; 
+    document.body.style.backgroundColor = 'blue';
 }
 
 let score = 0;
