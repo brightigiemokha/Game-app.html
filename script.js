@@ -35,5 +35,12 @@ function result(e) {
             return true;
         }
     });
-    alert('YOUR SCORE: '+ score);
-}
+    if (!alreadyClicked) {
+        //if alreadyClicked is false, then only increment the totalQuestions
+        totalQuestions++;
+        document.getElementsByClassName("instruction")[0].style.display = "none"; // deletes the instruction after first answer submitted 
+    }
+    document.getElementById("right-answers").innerHTML = score; //displaying the score
+    document.getElementById("total-questions").innerHTML = totalQuestions; //displaying the total questions
+    if (totalQuestions == 10) {
+      document.getElementsByClassName("end-message")[0].style.display = "block";
