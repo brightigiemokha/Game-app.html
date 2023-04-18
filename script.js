@@ -12,7 +12,7 @@ function next(id) {
   }
   document.getElementsByClassName("container")[id - 1].style.display = "none"; //make them appear one after another.
   document.getElementsByClassName("container")[id].style.display = "block";
-  document.body.style.backgroundColor = "blue";
+  document.body.style.backgroundColor = "lightblue";
   alreadyClicked = false; //resetting the value of alreadyClicked
 }
 ​
@@ -21,7 +21,7 @@ function result(e) {
   let children = Array.from(e.parentElement.children);
   children.every((element) => {
     if (element.id == "correct" && element.checked) {
-      document.body.style.backgroundColor = "green";
+      document.body.style.backgroundColor = "lightgreen";
       if (!alreadyClicked) {
         //if alreadyClicked is false, then only increment the score
         score++;
