@@ -44,3 +44,12 @@ function result(e) {
     document.getElementById("total-questions").innerHTML = totalQuestions; //displaying the total questions
     if (totalQuestions == 10) {
       document.getElementsByClassName("end-message")[0].style.display = "block";
+
+      //if totalQuestions is 10, then display the result message
+    if (score == 10) {
+        document.getElementById("end-message").innerHTML =
+          "THE END. Amazing! You are a genius!";
+        } else if (score >= 7) {
+        document.getElementById("end-message").innerHTML =
+          "THE END. Congratulations! You are very good!";
+        } else if (score >= 5) {
