@@ -53,3 +53,16 @@ function result(e) {
         document.getElementById("end-message").innerHTML =
           "THE END. Congratulations! You are very good!";
         } else if (score >= 5) {
+            document.getElementById("end-message").innerHTML =
+            "THE END. Ok. That wasn't so bad, but nothing special!";
+        } else if (score >= 1) {
+          document.getElementById("end-message").innerHTML =
+            "THE END. Shame. It's not something I would talk about in the future!";
+        } else {
+          document.getElementById("end-message").innerHTML =
+            "THE END. Bad, bad, bad! Go to Google!";
+        }
+      }
+     //   alert("YOUR SCORE: " + score);
+     alreadyClicked = true; //setting alreadyClicked to true
+}
