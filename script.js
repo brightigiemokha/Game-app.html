@@ -22,15 +22,18 @@ let score = 0;
 function result(e) {
     let children = Array.from(e.parentElement.children);
     children.every( element => {
-        if (element.id == "correct" && element.checked){
-            document.body.style.backgroundColor = 'lightgreen';
-            score++;
-            console.log(score);
-            return false;
+        if (element.id == "correct" && element.checked) {
+            document.body.style.backgroundColor = "green";
+            if (!alreadyClicked) {
+              //if alreadyClicked is false, then only increment the score
+              score++;
+              console.log(score);
+              return false;
+            }
         }else{
             document.body.style.backgroundColor = '#facdd4';
             return true;
         }
-    })
+    });
     alert('YOUR SCORE: '+ score);
 }
