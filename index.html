@@ -9,6 +9,18 @@
     <title>Quiz app</title>
 </head>
 <body>
+        <!-- Adding the score board -->
+        <div class="score-board">
+            <div class="score">
+                <h1>SCORE</h1>
+                <p id="score">
+                    Right answered: <span id="right-answers">0</span>
+                    of <span id="total-questions">0</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- Adding instructions -->
     <div class="instruction">
         <h1>INSTRUCTION</h1>
         Click on any of the 4 options and click submit. if you got the correct answer, 
@@ -18,6 +30,7 @@
         Enjoy.
 
     </div>
+    <!-- Adding questions from 1-10-->
     <div class="container">
         <p>Q1 What was the most popular girls name in the UK in 2021?</p>
         <input type="radio" name="question1" id="correct">Olivia<br>
