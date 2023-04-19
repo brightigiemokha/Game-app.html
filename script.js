@@ -1,10 +1,10 @@
 let alreadyClicked = false; // to prevent multiple clicks on the same question
 let totalQuestions = 0; // to keep track of total questions
 // changing background if correct option picked
-​
+
 // displaying the first block of question
 document.getElementsByClassName("container")[0].style.display = "block";
-​
+
 //DEFINING THE NEXT FUNCTION
 function next(id) {
   if (!alreadyClicked) {
@@ -15,13 +15,13 @@ function next(id) {
   document.body.style.backgroundColor = "lightblue";
   alreadyClicked = false; //resetting the value of alreadyClicked
 }
-​
+
 let score = 0;
 function result(e) {
   let children = Array.from(e.parentElement.children);
   children.every((element) => {
     if (element.id == "correct" && element.checked) {
-      document.body.style.backgroundColor = "lightgreen";
+      document.body.style.backgroundColor = "#90EE90";
       if (!alreadyClicked) {
         //if alreadyClicked is false, then only increment the score
         score++;
@@ -29,7 +29,7 @@ function result(e) {
         return false;
       }
     } else {
-      document.body.style.backgroundColor = "red";
+      document.body.style.backgroundColor = "#fb6767";
       return true;
     }
   });
@@ -42,7 +42,7 @@ function result(e) {
   document.getElementById("total-questions").innerHTML = totalQuestions; //displaying the total questions
   if (totalQuestions == 10) {
     document.getElementsByClassName("end-message")[0].style.display = "block";
-​
+
     //if totalQuestions is 10, then display the result message
     if (score == 10) {
       document.getElementById("end-message").innerHTML =
