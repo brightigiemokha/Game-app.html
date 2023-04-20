@@ -7,34 +7,32 @@ you can't get bored playing this game.
 
 ## Features 
 
-Quiz app have 10 questions with 4 options and 1 correct answer for each questions, when you pick the correct question and click the submit 
+Quiz app have 10 questions with 4 options and 1 correct answer for each questions, when you pick the correct question and click the submit , you could click the refresh button to start a fresh section
 ### Existing Features
 
-- __The Love Maths Logo and Heading__
+- __Quiz App Score's__
 
-  - Featured at the top of the page, the Love Maths logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
+  - This section is where the score of the player is displayed it have the number of questions answered correctly and the number of game played in total.
 
-![Logo](media/love_maths_logo.png)
+ (./assets/image/scores.png)
 
 - __The Game Area__
 
-  - This section will allow the user to play the maths game. The user will be able to easily see icons for addition,  subtraction, multiplication, and division games.
-  - The user will be able to select the type of maths game they will be playing by clicking on the different icons. 
+  - This is the questions area with a pecfect border to make the play area more attractive and separate from other sections. it has black texts and 4 options for ezch questions. 
 
-![Game](media/love_maths_icons.png)
+ (./assets/image/playsection.png)
 
-- __The Question section__
+- __Correct Answer__
 
-  - The question section is where the user will be able to see the elementary arithmetic question to answer as part of the game. The user will be able answer the questions in the answer box provide
-  - The user will be able to submit their answer and a pop-up will make it known to the user if they answered correctly. 
+  - During the game when you pass the right answer you will get the a green background as a confirmation that you have passed that section.
 
-![Question](media/love_maths_question.png)
+![Question](./assets/image/passed.png)
 
-- __The Score Area__
+- __Failed Scored__
 
-  - This section will allow the user to see exactly how many correct and incorrect answers they have provided. 
+  - During the game when the user picked the wrong answer you will get the a green background as a confirmation that you have passed that section.
 
-![score](media/love_maths_answer.png)
+![score](./assets/image/failed.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
