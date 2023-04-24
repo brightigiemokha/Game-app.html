@@ -41,15 +41,15 @@ In addition, you may also use this section to discuss plans for additional featu
 - __Completely Responsive__
   - site is completely responsive and can be played on any device of the user's choice/choosen.
 
-- Another feature idea
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Site was tested to sure it run perfectly well. first it was tested for multiple score on 1 same questions. during the test i tried to answer 1 questions twice to see if it will add to the score but it didnt which is perfectly as intended. the submit and background color was tested to see if we can get the required background when i picked the right answer and wrong answer. it showed green backgound for correct answer and red background for wrong answer as intended.
+the scores added one each time a correct answer was picked and no score was added when wrong choice was picked
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+site is completely responsive and can be played on any Browser / device of the user's choice/choosen..
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+I had issure with Duplicated ID. this was due to the fact that i have used one ID multiple times and i didnt have enough time to correct this as i saw this after i have finish my project and going over the correction would affect my entire project. site is running perfectly .
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
