@@ -58,17 +58,21 @@ If this section grows too long, you may want to split it off into a separate fil
 
 - HTML
     - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+    ![html](./assets/image/errors2.png)
+    ![html](./assets/image/htmlvalidate.png)
 - CSS
     - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
-    ![js](./assets/image/jsValidator.png)
+    ![js](./assets/image/cssValidator.png)
 
 - JavaScript
     - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
       - The following metrics were returned: 
-      - There are 11 functions in this file.
+      - Function with the largest signature take 1 arguments, while the median is 1
+      - There are 3 functions in this file.
       - Function with the largest signature takes 2 arguments, while the median is 0.
-      - Largest function has 10 statements in it, while the median is 3.
-      - The most complex function has a cyclomatic complexity value of 4 while the median is 2.
+      - Largest function has 16 statements in it, while the median is 8.
+      - The most complex function has a cyclomatic complexity value of 7 while the median is 4.
+      ![js](./assets/image/jsVal.png)
 
 ### Unfixed Bugs
 
