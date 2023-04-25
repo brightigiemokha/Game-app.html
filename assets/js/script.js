@@ -20,7 +20,7 @@ let score = 0;
 function result(e) {
   let children = Array.from(e.parentElement.children);
   children.every((element) => {
-    if (element.id == "correct" && element.checked) {
+    if (element.className == "correct" && element.checked) {
       document.body.style.backgroundColor = "#90EE90";
       if (!alreadyClicked) {
         //if alreadyClicked is false, then only increment the score
