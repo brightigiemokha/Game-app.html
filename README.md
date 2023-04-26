@@ -13,9 +13,9 @@ Quiz app have 10 questions with 4 options and 1 correct answer for each question
 - __Quiz App Score's__
 
   - This section is where the score of the player is displayed it have the number of questions answered correctly and the number of game played in total.
+  ![scores](./assets/image/scores.png)
 
- (./assets/image/scores.png)
-
+ 
 - __The Game Area__
 
   - This is the questions area with a pecfect border to make the play area more attractive and separate from other sections. it has black texts and 4 options for ezch questions. 
@@ -58,7 +58,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 - HTML
     - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
-    ![html](./assets/image/errors2.png)  ![html](./assets/image/htmlvalidate.png)
+     ![html](./assets/image/htmlvalidate.png)
     
 - CSS
     - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
@@ -66,12 +66,14 @@ If this section grows too long, you may want to split it off into a separate fil
 
 - JavaScript
     - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
+    two functions appear un-used, these functions are being called from the index.html, so that is why the appear as the  unused variables in the validator.
       - The following metrics were returned: 
       - Function with the largest signature take 1 arguments, while the median is 1
       - There are 3 functions in this file.
       - Function with the largest signature takes 2 arguments, while the median is 0.
       - Largest function has 16 statements in it, while the median is 8.
       - The most complex function has a cyclomatic complexity value of 7 while the median is 4.
+      - 
       ![js](./assets/image/jsval.png)
 
 ### Unfixed Bugs
@@ -92,35 +94,13 @@ The live link can be found here - https://8000-brightigiem-quizapphtml-03gn55w0t
 
 ## Credits 
 
-special Thanks to Web Dev Simplified for his video that gave me the background to this project.[https://www.youtube.com/watch?v=riDzcEQbX6k]
-
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+  special Thanks to Web Dev Simplified for his video that gave me the background to this project.[https://www.youtube.com/watch?v=riDzcEQbX6k]
+  To Mr Tomislav_5p for always been there for all the questions and helping to make sure everything i needed was given. thanks to Mr/Mrs Marlos for their contribution to the success of this project advise and review.
+  To My wife and amazing daughter for giving me enough time to focus on my project and complete it.
+  To all code institute tuttor supports you are all so amazing. thanks for your patients and help
 
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
-## Other General Project Advice
+## Note 
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+  This project is for educational purpose only.
