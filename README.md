@@ -3,7 +3,7 @@
 Quiz app is a beautiful interactive and informative game for user's who would love to have fun and learn as the same time. game has a beautiful background and can be played on any device and its give score of how far a user have gone and deplay background colors based on the answer provided. 
 you can't get bored playing this game.
 
-![Responsice Mockup](./assets/image/fullgame.png)
+![Responsice Mockup](./assets/image/mainp.png)
 
 ## Features 
 
@@ -13,6 +13,7 @@ Quiz app have 10 questions with 4 options and 1 correct answer for each question
 - __Quiz App Score's__
 
   - This section is where the score of the player is displayed it have the number of questions answered correctly and the number of game played in total.
+
   ![scores](./assets/image/scores.png)
 
  
@@ -49,16 +50,15 @@ the scores added one each time a correct answer was picked and no score was adde
 
 site is completely responsive and can be played on any Browser / device of the user's choice/choosen..
 
-I had issure with Duplicated ID. this was due to the fact that i have used one ID multiple times and i didnt have enough time to correct this as i saw this after i have finish my project and going over the correction would affect my entire project. site is running perfectly .
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
 ### Validator Testing 
 
 - HTML
     - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
-     ![html](./assets/image/htmlvalidate.png)
+
+    ![html](./assets/image/htmlvalidate.png)
     
 - CSS
     - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
@@ -78,13 +78,11 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+  There are no unfixed Bugs.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
