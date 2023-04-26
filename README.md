@@ -3,7 +3,7 @@
 Quiz app is a beautiful interactive and informative game for user's who would love to have fun and learn as the same time. game has a beautiful background and can be played on any device and its give score of how far a user have gone and deplay background colors based on the answer provided. 
 you can't get bored playing this game.
 
-![Responsice Mockup](media/love_maths_mockup.png)
+![Responsice Mockup](./assets/image/fullgame.png)
 
 ## Features 
 
@@ -72,7 +72,7 @@ If this section grows too long, you may want to split it off into a separate fil
       - Function with the largest signature takes 2 arguments, while the median is 0.
       - Largest function has 16 statements in it, while the median is 8.
       - The most complex function has a cyclomatic complexity value of 7 while the median is 4.
-      ![js](./assets/image/jsVal.png)
+      ![js](./assets/image/jsval.png)
 
 ### Unfixed Bugs
 
@@ -87,14 +87,12 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-maths/
+The live link can be found here - https://8000-brightigiem-quizapphtml-03gn55w0tkw.ws-eu95.gitpod.io/
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+special Thanks to Web Dev Simplified for his video that gave me the background to this project.[https://www.youtube.com/watch?v=riDzcEQbX6k]
 
 ### Content 
 
