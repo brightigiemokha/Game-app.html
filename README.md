@@ -20,7 +20,7 @@ Quiz app have 10 questions with 4 options and 1 correct answer for each question
 
   - This is the questions area with a pecfect border to make the play area more attractive and separate from other sections. it has black texts and 4 options for ezch questions. 
 
- (./assets/image/playsection.png)
+ ![play](./assets/image/playsection.png)
 
 - __Correct Answer__
 
