@@ -50,7 +50,14 @@ body.correct {
 body.wrong {
     --hue: var(--hue-wrong);
 }
-.c404 h1 {
+.error {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    
+}
+.error h1 {
     font-size: 50rem;
     color: #e73017;
     margin: 0;
@@ -59,7 +66,7 @@ body.wrong {
     
 }
 
-.c404 a {
+.error a {
     text-decoration: none;
     background-color: rgb(245, 242, 242);
     color: rgb(36, 35, 35);
