@@ -52,28 +52,29 @@ body.wrong {
 }
 .error {
     width: 100%;
-    position: absolute;
+    display: flex;
+    align-items: center;
     top: 50%;
     text-align: center;
-    
-}
-.error h1 {
-    font-size: 50rem;
-    color: #e73017;
-    margin: 0;
-    font-weight: 900;
-    letter-spacing: 20px;
-    
-}
 
-.error a {
-    text-decoration: none;
-    background-color: rgb(245, 242, 242);
-    color: rgb(36, 35, 35);
-    padding: 12px 24px;
-    display: inline-block;
-    border-radius: 25px;
 }
+    .error h1 {
+        font-size: 50rem;
+        color: #e73017;
+        margin: 0;
+        font-weight: 900;
+        letter-spacing: 20px;
+        
+    }
+
+    .error a {
+        text-decoration: none;
+        background-color: rgb(245, 242, 242);
+        color: rgb(36, 35, 35);
+        padding: 12px 24px;
+        display: inline-block;
+        border-radius: 25px;
+    }
 
 @media only screen and (max-width: 800px) {
     body {
