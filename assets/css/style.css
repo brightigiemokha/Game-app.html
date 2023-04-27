@@ -50,7 +50,7 @@ body.correct {
 body.wrong {
     --hue: var(--hue-wrong);
 }
-#c404 h1{
+.c404 h1{
     font-size: 50rem;
     color: #e73017;
     margin: 0;
@@ -58,7 +58,8 @@ body.wrong {
     letter-spacing: 20px;
     
 }
-#c404 a{
+
+.c404 a{
     text-decoration: none;
     background-color: rgb(245, 242, 242);
     color: rgb(36, 35, 35);
