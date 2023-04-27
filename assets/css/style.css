@@ -26,6 +26,7 @@ body {
     position: absolute;
     top: 50%;
     text-align: center;
+    border: none;
 }
 
 .page{
