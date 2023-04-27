@@ -87,7 +87,7 @@ site is completely responsive and can be played on any Browser / device of the u
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://8000-brightigiem-quizapphtml-03gn55w0tkw.ws-eu95.gitpod.io/
+The live link can be found here - https://8000-brightigiem-quizapphtml-03gn55w0tkw.ws-eu96.gitpod.io/
 
 
 ## Credits 
