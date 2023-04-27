@@ -76,9 +76,28 @@ site is completely responsive and can be played on any Browser / device of the u
       - 
       ![js](./assets/image/jsval.png)
 
+### 404 error page
+![lresponsive](./assets/image/responlight.png)
+on this site i have added an error page for the user and included information to redirect the user to the site incase they have made a mistake on their search for this site.
+404 error page have a link redirecting the user to the game.
+![404 page](./assets/image/404page.png)
+
+  There are no unfixed Bugs.
+
 ### Unfixed Bugs
 
   There are no unfixed Bugs.
+
+### LightHouse
+  I have checked the site on Lighthouse to see the level of responsiveness and performance. on the desktop check Accessibility was 81% due to the color fitted and i didnt have enough time to solve this issue. site appears and function perfectly and accesible 
+  ![lighthouse desktop](./assets/image/lightdesk.png)
+  also on mobile i had same issue due to same reason
+  ![lighthouse mobile](./assets/image/lightgame.png)
+  .
+  light house check for 404 page was perfect as accessibility was 92%.
+  ![404 page mobile](./assets/image/light404.png)
+  the result was also same on the lighthouse check for desktop version of the 404 page
+  ![404 page mobile](./assets/image/light404d.png)
 
 ## Deployment
 
@@ -93,6 +112,7 @@ The live link can be found here - https://brightigiemokha.github.io/Quiz-app.htm
 ## Credits 
 
   special Thanks to Web Dev Simplified for his video that gave me the background to this project.[https://www.youtube.com/watch?v=riDzcEQbX6k]
+  to Darkcode for the 404page tutor [https://www.youtube.com/watch?v=wFXAjxpnD7c]
   To Mr Tomislav_5p for always been there for all the questions and helping to make sure everything i needed was given. thanks to Mr/Mrs Marlos for their contribution to the success of this project advise and review.
   To My wife and amazing daughter for giving me enough time to focus on my project and complete it.
   To all code institute tuttor supports you are all so amazing. thanks for your patients and help
