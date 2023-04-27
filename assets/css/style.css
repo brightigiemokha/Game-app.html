@@ -20,22 +20,22 @@ body {
     color: rgb(14, 1, 14);
     font-size: 25px;
 }
-.error{
-    width: 80%;
-    display: flex;
-    align-items: center;
-
+.container{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
 }
-.error-404{
-    font-size: 3rem;
-    align-items: center;
-
+.container h1{
+    font-size: 160px;
+    color: #b8e994;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 20px;
+    
 }
-.error-p{
-    font-size: 1rem;
-    align-items: center;
 
-}
 .instruction{
     font-size: 15px;
     padding-right: 35%;
