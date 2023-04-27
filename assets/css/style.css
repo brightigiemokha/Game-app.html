@@ -59,10 +59,10 @@ body.wrong {
 
 }
     .error h1 {
-        font-size: 10rem;
+        font-size: 5rem;
         color: #0f0f0f;
         margin: 0;
-        font-weight: 500;
+        font-weight: 20;
         letter-spacing: 20px;
         
     }
@@ -72,7 +72,6 @@ body.wrong {
         background-color: rgb(245, 242, 242);
         color: #0f0f0f;
         padding: 12px 24px;
-        display: inline-block;
         border-radius: 25px;
     }
 
