@@ -51,7 +51,7 @@ body.wrong {
     --hue: var(--hue-wrong);
 }
 #c404 h1{
-    font-size: 300px;
+    font-size: 50rem;
     color: #e73017;
     margin: 0;
     font-weight: 900;
