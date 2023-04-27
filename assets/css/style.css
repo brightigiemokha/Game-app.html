@@ -59,10 +59,9 @@ body.wrong {
 
 }
     .error h1 {
-        font-size: 5rem;
+        font-size: 2rem;
         color: #0f0f0f;
         margin: 0;
-        font-weight: 20;
         letter-spacing: 20px;
         
     }
