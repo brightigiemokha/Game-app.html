@@ -21,7 +21,7 @@ body {
     font-size: 25px;
 }
 
-.container{
+.c404{
     width: 100%;
     position: absolute;
     top: 50%;
@@ -37,7 +37,7 @@ body {
     letter-spacing: 20px;
     
 }
-.container a{
+.c404 a{
     text-decoration: none;
     background-color: rgb(245, 242, 242);
     color: rgb(36, 35, 35);
