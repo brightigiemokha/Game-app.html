@@ -52,18 +52,20 @@ body.wrong {
 }
 .error {
     width: 100%;
-    display: flex;
-    align-items: center;
+    position: absolute;
     top: 50%;
+    display: flex;
+    transform: translateY(-50%);
     text-align: center;
 
 }
     .error h1 {
-        font-size: 5rem;
-        color: #0f0f0f;
+        font-size: 10rem;
         margin: 0;
-        letter-spacing: 10px;
-        
+        font-weight: 900;
+        letter-spacing: 20px;
+        color: #0f0f0f;
+       
     }
 
     .error a {
@@ -72,6 +74,8 @@ body.wrong {
         color: #0f0f0f;
         padding: 12px 24px;
         border-radius: 25px;
+        display: inline-block;
+        font-size: 20px;
     }
 
 @media only screen and (max-width: 800px) {
